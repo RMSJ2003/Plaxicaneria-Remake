@@ -1,0 +1,242 @@
+body{
+    background-image: url(images/PlasticsInBeach.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: verdana;
+}
+img.header{
+    background-color: rgba(0, 0, 0, 0.800);
+    width: 400px;
+    height: 85px;
+    border: 3px solid white;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+table.page{
+    border: 3px solid white;
+    border-radius: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(0, 0, 0, 0.800);
+} 
+tr.navigation{
+    text-align: center;
+    height: 40px;
+    border-bottom: 2px solid white;
+}
+button.home{
+    background-color: white;
+    width: 100%;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 25px;
+}
+button.theProblem{
+    background-color: yellow;
+    width: 100%;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 25px;
+}
+button.howCanIHelp{
+    background-color: rgb(0, 193, 0);
+    width: 100%;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 25px;
+}
+button.contactUs{
+    background-color: skyblue;
+    width: 100%;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 25px;
+}
+button{
+    cursor: pointer;
+    color: black;
+}
+strong.title{
+    color: white;
+    font-size: 60px;
+}
+td.title{
+    text-align: center;
+    padding-top: 40px;
+}
+a.link{
+    color: lightblue;
+}
+a.link:visited{
+    color: lightgreen;
+}
+a.link:hover{
+    color: rgb(255, 0, 0);
+}
+
+/* For home page */
+img.welcome{
+    width: 400px;
+    height: 100px;
+    vertical-align: bottom;
+}
+td.intro{
+    color: white;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+}
+td.invitation{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    font-size: 20px;
+}
+
+/* For the problem */
+td.problem{
+    color: white;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+}
+.secondaryTitles{
+    color: white;
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+.source{
+    color: white;
+    text-align: left;
+    padding-left: 80px;
+    font-size: smaller;
+}
+
+/* For contact us */
+.contactHeader{
+    color: white;
+    height: 100px;
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+tr.contactInfo td{
+    color: white;
+    text-align: center;
+    height: 50px;
+    border-bottom: 3px solid gray;
+    border-radius: 25px;
+    border-collapse: collapse;
+    border-top: 3px solid lightgreen;
+}
+table tr.contactInfo:hover td{
+    background-color: rgba(0, 128, 0, 0.800);
+    border-radius: 25px;
+}
+
+/* For how can i help */
+.form{
+    color: white;
+}
+input.signButton{
+    cursor: pointer;
+    background-color: rgb(0, 193, 0);
+    color: black;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 25px;
+}
+.tableForm{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signTd{
+    text-align: center;
+    height: 50px;
+}
+
+/*
+strong{
+    font-size:larger;
+}
+table{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family:verdana;
+    background-color: rgba(0, 0, 0, 0.763);
+    border: 3px solid white;
+    border-radius: 40px;
+}
+table caption a img{
+    width: 600px;
+    height: 110px;
+}
+table caption{
+    border: 3px dashed yellow;
+    height: 140px;
+    padding-top:20px;
+}
+table tr td button{
+    background-color: rgba(61, 0, 0, 0.418);
+    border: 2px solid yellow;
+    border-radius: 40px;
+    color: white;
+    font-family: verdana;
+    font-size: larger;  
+    font-weight: bold;  
+    padding: 20px;
+
+}
+table tr td{
+    text-align: center;
+}
+
+/* 
+- Adjust the space between the cells
+tr, td{
+    border-spacing: 5px;
+}
+- Zebra Stripes
+tr:nth-child(even){
+    background-color: red;
+}
+- Vertical Zebra Stripes
+td:nth-child(even){
+    background-color: red;
+}
+- Combine the two stripes
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+- Row dividers
+tr{
+    border-bottom: 10px solid white;   
+}
+- Hoverable rows
+tr:hover{
+    background-color: red;
+}
+*/

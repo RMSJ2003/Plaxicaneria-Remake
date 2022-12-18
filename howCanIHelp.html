@@ -42,14 +42,14 @@
             </tr>
             <tr>
                 <td colspan="4" class="form">
-                    <form action="index.php" method="post">
+                    <form name="signForm" action="index.php" method="post">
                         <table class="tableForm">
                             <tr>
                                 <td>
                                     <label for="firstName">First Name</label>
                                 </td>
                                 <td>
-                                    <input id="firstName" type="text" name="firstName">
+                                    <input id="firstName" type="text" name="firstName" required>
                                 </td>
                             </tr>
                             <tr>
@@ -57,7 +57,7 @@
                                     <label for="lastName">Last Name</label>
                                 </td>
                                 <td>
-                                    <input id="lastName" type="text" name="lastName">
+                                    <input id="lastName" type="text" name="lastName" required>
                                 </td>
                             </tr>
                             <tr>
@@ -65,11 +65,11 @@
                                     <label for="email">Email</label>
                                 </td>
                                 <td>
-                                    <input id="email" type="text" name="email" style="width: 300px;">
+                                    <input id="email" type="text" name="email" style="width: 300px;" required>
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2" class="signTd"><input class="signButton" onclick="window.alert('Thank you for signing!')" type="submit" value="SUBMIT"></td>
+                                <td colspan="2" class="signTd"><input class="signButton" type="submit" value="SUBMIT"></td>
                             </tr>
                         </table>
                     </form>

@@ -20,6 +20,7 @@
     mysqli_stmt_bind_param($stmt, "sss", $firstName, $lastName, $email);
     mysqli_stmt_execute($stmt);
     echo '<script type="text/javascript"> ';
+    echo 'window.alert("Thank you for signing!");';
     echo 'document.location="howCanIHelp.html"';
     echo '</script>';
 ?>
